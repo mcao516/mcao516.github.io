@@ -13,15 +13,12 @@ profile:
     <p>Montreal, QC, H2S 3H1</p>
 
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm currently a PhD student fortunate to be advised by [Jackie Chi Kit Cheung](https://www.cs.mcgill.ca/~jcheung/){:target="\_blank"} and colleagues at [Mila - Quebec Artificial Intelligence Institute](https://mila.quebec/en/mila/team/).
+I'm currently a PhD student fortunate to be advised by [Jackie Chi Kit Cheung](https://www.cs.mcgill.ca/~jcheung/){:target="\_blank"} and colleagues at [Mila - Quebec Artificial Intelligence Institute](https://mila.quebec/en/mila/team/){:target="_blank"}.
 
-I'm interested in systematic natural language understanding, especially that which incorporates commonsense reasoning.
-_More simply, can we get a computer to understand human language?_
-
-To that end, I study computational models of language and their fundamental limitations---primarily their inability to model _semantic plausibility._
-This problem is often studied as _selectional preference_ in lexical semantics and _Winograd schemas_ in NLP.
+I'm interested in [systematic](https://ruccs.rutgers.edu/images/personal-zenon-pylyshyn/proseminars/Proseminar13/ConnectionistArchitecture.pdf){:target="_blank"} natural language understanding, especially that which incorporates common sense.
+_More simply, what would it take for a computer to understand human language?_
