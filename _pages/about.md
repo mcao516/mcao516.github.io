@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="https://mila.quebec/">Mila</a> and <a href="http://rl.cs.mcgill.ca/">McGill University</a>
+description: <a href="https://mila.quebec/">Mila</a> • <a href="http://rl.cs.mcgill.ca/">McGill University</a>
 
 profile:
   align: right
@@ -20,5 +20,5 @@ social: true  # includes social icons at the bottom of the page
 
 I'm currently a PhD student fortunate to be advised by [Jackie Chi Kit Cheung](https://www.cs.mcgill.ca/~jcheung/){:target="\_blank"} and colleagues at [Mila - Quebec Artificial Intelligence Institute](https://mila.quebec/en/mila/team/){:target="_blank"}.
 
-I'm interested in [systematic](https://ruccs.rutgers.edu/images/personal-zenon-pylyshyn/proseminars/Proseminar13/ConnectionistArchitecture.pdf){:target="_blank"} natural language understanding, especially that which incorporates common sense.
+I'm interested in [systematic](https://www.sciencedirect.com/science/article/pii/0010027788900315){:target="_blank"} natural language understanding, especially that which incorporates [common sense](https://dl.acm.org/doi/abs/10.5555/1624775.1624816).
 _More simply, what would it take for a computer to understand human language?_
