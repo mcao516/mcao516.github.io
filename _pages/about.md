@@ -12,8 +12,10 @@ profile:
     <p>6666 St-Urbain, #200</p>
     <p>Montreal, QC, H2S 3H1</p>
 
-news: false
-social: true
+
+news: true  # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
 ---
 
 I'm currently a PhD student fortunate to be advised by [Jackie Chi Kit Cheung](https://www.cs.mcgill.ca/~jcheung/){:target="\_blank"} and colleagues at [Mila - Quebec Artificial Intelligence Institute](https://mila.quebec/en/mila/team/).
