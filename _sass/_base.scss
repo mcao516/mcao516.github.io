@@ -183,9 +183,9 @@ a, table.table a {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  padding-top: 10px;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.5rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -498,3 +498,93 @@ html.transition *:after {
   transition: all 750ms !important;
   transition-delay: 0 !important;
 }
+
+// Salk quote
+
+.salk-quote {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
+
+.salk-quote:before {
+  display: block;
+  content: "\201C";
+  font-size: 64px;
+  position: absolute;
+  top: -20px;
+  left: 5px;
+  color: #7a7a7a;
+}
+
+// Address
+.address {
+  font-size: 10px;
+}
+
+// Social changes
+
+.social {
+  padding-top: 30px;
+  .contact-icons {
+    font-size: 1.5rem;
+    a {
+      //display: flex;
+      //align-items: center;
+      i {
+        padding-right: 10px;
+        vertical-align: middle;
+      }
+      span {
+        font-family: monospace;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
+.electronic_communication_pre:after {
+  content: attr(first_name) "." attr(last_name) " (a";
+  text-transform: lowercase;
+}
+
+.electronic_communication_post:after {
+  content: "t) " "mail" "." attr(university) "." "ca";
+}
+
+// Publications changes
+// Publications
+
+.publications {
+  ol.bibliography {
+    margin-bottom: 0;
+    li {
+      margin-bottom: 0;
+      .row {
+        margin-bottom: 0;
+      }
+      .title {
+        margin-bottom: 0.25rem;
+      }
+      .author {
+        margin-bottom: 0.25rem;
+        font-size: 0.9rem;
+      }
+    }
+    .links {
+      margin-bottom: 0;
+      a.btn {
+        margin-left: 0;
+        margin-right: 0.5rem;
+        text-transform: none;
+      }
+    }
+  }
+}
+
+

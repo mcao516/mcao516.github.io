@@ -24,4 +24,4 @@ I'm interested in [systematic](https://www.sciencedirect.com/science/article/pii
 _More simply, what would it take for a computer to understand human language?_
 
 This question is [probably vacuous](https://academic.oup.com/mind/article/LIX/236/433/986238){:target="_blank"}, so my research focuses specifically on [semantic plausibility](https://pubmed.ncbi.nlm.nih.gov/21585487/){:target="_blank"}. 
-Consider how _"an ant has a kidney"_ is easily interpretable, while _"a kidney has an ant"_ [is not](https://mitpress.mit.edu/books/aspects-theory-syntax){:target="_blank"}.
+Consider how _"an ant has a kidney"_ is [easily interpretable](https://mitpress.mit.edu/books/aspects-theory-syntax){:target="_blank"}, while _"a kidney has an ant"_ is not.

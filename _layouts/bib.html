@@ -16,7 +16,13 @@
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
-      <div class="title">{{entry.title}}</div>
+      <div class="title">
+        {% if entry.url %}
+          <a href="{{ entry.url }}" target="_blank">{{entry.title}}</a>
+        {% else %}
+          {{entry.title}}
+        {% endif %}
+      </div>
       <div class="author">
         {% for author in entry.author_array %}
           {% assign author_is_self = false %}
@@ -90,7 +96,7 @@
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
     {% endif %}
     {% if entry.html %}
-      <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Paper</a>
+      <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button" target="_blank">HTML</a>
     {% endif %}
     {% if entry.pdf %}
       {% if entry.pdf contains '://' %}
@@ -110,7 +116,7 @@
       <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Blog</a>
     {% endif %}
     {% if entry.code %}
-      <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code</a>
+      <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank">code</a>
     {% endif %}
     {% if entry.poster %}
       {% if entry.poster contains '://' %}
