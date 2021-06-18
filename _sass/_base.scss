@@ -365,7 +365,7 @@ footer.sticky-bottom {
     color: $grey-color-light;
     border-top: 1px solid $grey-color-light;
     padding-top: 1rem;
-    margin-top: 2rem;
+    margin-top: .5rem;
     margin-bottom: -2rem;
     text-align: right;
   }
@@ -408,18 +408,19 @@ footer.sticky-bottom {
           }
         }
         > em {
-          border-bottom: 1px solid;
+          //border-bottom: 1px solid;
           font-style: normal;
+          font-weight: bold;
         }
       }
       .links {
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+          padding-top: 0.2rem;
+          padding-bottom: 0.2rem;
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
@@ -572,7 +573,7 @@ html.transition *:after {
         margin-bottom: 0.25rem;
       }
       .author {
-        margin-bottom: 0.25rem;
+        margin-bottom: 0rem;
         font-size: 0.9rem;
       }
     }
@@ -583,8 +584,22 @@ html.transition *:after {
         margin-right: 0.5rem;
         text-transform: none;
       }
+      a.btn.code {
+        color: #0076df;
+        border-color: #0076df;
+      }
+      a.btn.arxiv {
+        color: firebrick;
+        border-color: firebrick;
+      }
+      a.btn.slides {
+        color: forestgreen;
+        border-color: forestgreen;
+      }
     }
   }
 }
 
-
+.bibtex.hidden {
+  margin-bottom: 0;
+}
