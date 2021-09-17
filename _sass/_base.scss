@@ -350,7 +350,7 @@ footer.sticky-bottom {
   margin-top: 2rem;
   h1 {
     color: var(--global-theme-color);
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -382,6 +382,7 @@ footer.sticky-bottom {
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
+          opacity: 0.85;
           padding-left: 1rem;
           padding-right: 1rem;
           a {
@@ -560,6 +561,8 @@ html.transition *:after {
 
 // Publications changes
 // Publications
+
+
 
 .publications {
   ol.bibliography {
