@@ -8,7 +8,11 @@ middle_name:
 last_name: Cao
 email: meng.cao@mail.mcgill.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  I am a Ph.D. student at <a href="https://mila.quebec/en/"> Mila </a> and <a href="https://cs.mcgill.ca/"> McGill University</a>, 
+  supervised by Dr.<a href="https://www.cs.mcgill.ca/~jcheung/"> Jackie Chi Kit Cheung</a>.
+  My current research focus on text summarization, reinforcement learning and language generation in general. 
+  I received my bachelor's degree with a major in software engineering from <a href="https://www.neu.edu.cn/"> Northeastern University</a> in 2019, under the supervision of 
+  Professor <a href="https://xueshu.baidu.com/scholarID/CN-BF734UDJ?site=xueshu_ri"> Dancheng Li</a>.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
