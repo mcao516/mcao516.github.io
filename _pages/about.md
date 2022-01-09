@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href="https://mila.quebec/">Mila - Quebec Artificial Intelligence Institute</a> • <a href="http://rl.cs.mcgill.ca/">McGill University</a>
 
