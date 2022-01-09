@@ -19,6 +19,6 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a second-year Ph.D. student in Computer Science at <a href="https://mila.quebec/en/"> Mila </a> and <a href="https://cs.mcgill.ca/"> McGill University</a>, 
-supervised by Prof.<a href="https://www.cs.mcgill.ca/~jcheung/"> Jackie Chi Kit Cheung</a>. Before coming to Montréal, I received my bachelor's degree with a major in software engineering from <a href="https://www.neu.edu.cn/"> Northeastern University (China) </a> in 2019.
+supervised by Prof.<a href="https://www.cs.mcgill.ca/~jcheung/"> Jackie Chi Kit Cheung</a>. Before coming to Montréal, I received my bachelor's degree with a major in software engineering from <a href="https://www.neu.edu.cn/"> Northeastern University (China) </a> in 2019. For more information, plase check my <a href="assets/pdf/CV.pdf" target="_blank">CV</a>.
 
 I am broadly interested in artificial intelligence, deep learning, and natural language processing. My primary research interests are in abstractive text summarization and conditional text generation.
