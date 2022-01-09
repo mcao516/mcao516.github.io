@@ -7,10 +7,10 @@ subtitle: <a href="https://mila.quebec/">Mila</a> • <a href="http://rl.cs.mcgi
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
+<!--   address: >
     <p>Desk C2083-A</p>
     <p>6666 St-Urbain, #200</p>
-    <p>Montreal, QC, H2S 3H1</p>
+    <p>Montreal, QC, H2S 3H1</p> -->
 
 
 news: false  # includes a list of news items
