@@ -230,6 +230,27 @@ blockquote {
   }
 }
 
+// Social changes
+
+.social {
+  padding-top: 30px;
+  .contact-icons {
+    font-size: 1.5rem;
+    a {
+      //display: flex;
+      //align-items: center;
+      i {
+        padding-right: 10px;
+        vertical-align: middle;
+      }
+      span {
+        font-family: monospace;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
 // Footer
 footer.fixed-bottom {
   text-align: center;
