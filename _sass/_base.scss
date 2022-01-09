@@ -210,9 +210,9 @@ blockquote {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  padding-top: 10px;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.5rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -229,7 +229,6 @@ blockquote {
     font-size: 0.8rem;
   }
 }
-
 
 // Footer
 footer.fixed-bottom {
