@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Meng Cao (曹勐) # the website title (if blank, full name will be used instead)
 first_name: Meng
 middle_name: 
 last_name: Cao
@@ -14,13 +14,11 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I received my bachelor's degree with a major in software engineering from <a href="https://www.neu.edu.cn/"> Northeastern University</a> in 2019, under the supervision of 
   Professor <a href="https://xueshu.baidu.com/scholarID/CN-BF734UDJ?site=xueshu_ri"> Dancheng Li</a>.
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+  Based on <a href="https://github.com/alshedivat/al-folio">al-folio</a>'s theme.
+keywords: # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🔥 # the emoji used as the favicon
+icon: 🐾 # the emoji used as the favicon
 url: https://mcao516.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
@@ -56,7 +54,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: mcao516 # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
