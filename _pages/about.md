@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href="https://mila.quebec/">Mila</a> • <a href="http://rl.cs.mcgill.ca/">McGill University</a>
+subtitle: <a href="https://mila.quebec/">Mila - Quebec Artificial Intelligence Institute</a> • <a href="http://rl.cs.mcgill.ca/">McGill University</a>
 
 profile:
   align: right
