@@ -23,4 +23,4 @@ supervised by Prof.<a href="https://www.cs.mcgill.ca/~jcheung/"> Jackie Chi Kit 
 
 I am broadly interested in artificial intelligence, deep learning, and natural language processing. My primary research interests are in abstractive text summarization and conditional text generation.
 
-For more information, plase check my <a href="assets/pdf/CV.pdf" target="_blank">CV</a>.
+For more information, please check my <a href="assets/pdf/CV.pdf" target="_blank">CV</a>.
