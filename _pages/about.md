@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href="https://mila.quebec/">Mila - Quebec Artificial Intelligence Institute</a> • <a href="http://rl.cs.mcgill.ca/">McGill University</a>
+subtitle: <a href="https://mila.quebec/">Mila</a> • <a href="http://rl.cs.mcgill.ca/">McGill University</a>
 
 profile:
   align: right
@@ -18,8 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a second-year Ph.D. student in Computer Science at <a href="https://mila.quebec/en/"> Mila </a> and <a href="https://cs.mcgill.ca/"> McGill University</a>, 
-supervised by Prof.<a href="https://www.cs.mcgill.ca/~jcheung/"> Jackie Chi Kit Cheung</a>. I am a member of the <a href="http://rl.cs.mcgill.ca/">Reasoning and Learning (RL) lab</a>. Before coming to Montréal, I received my bachelor's degree with a major in software engineering from <a href="https://www.neu.edu.cn/"> Northeastern University (China) </a> in 2019.
+I am a second-year Ph.D. student in Computer Science at <a href="https://mila.quebec/en/"> Quebec AI Institute (Mila) </a> and <a href="https://cs.mcgill.ca/"> McGill University</a>, supervised by Prof.<a href="https://www.cs.mcgill.ca/~jcheung/"> Jackie Chi Kit Cheung</a>. I am a member of the <a href="http://rl.cs.mcgill.ca/">Reasoning and Learning (RL) lab</a>. Before coming to Montréal, I received my bachelor's degree with a major in software engineering from <a href="https://www.neu.edu.cn/"> Northeastern University (China) </a> in 2019.
 
 I am broadly interested in artificial intelligence, deep learning, and natural language processing. My primary research interests are in abstractive text summarization and conditional text generation.
 
