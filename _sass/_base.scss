@@ -363,17 +363,11 @@ blockquote {
 // Social (bottom)
 
 .social {
-<<<<<<< HEAD
-  padding-top: 10px;
-  .contact-icons {
-    font-size: 1.5rem;
-=======
   text-align: center;
 
   .contact-icons {
     font-size: 4rem;
 
->>>>>>> upstream/master
     a {
       i::before {
         color: var(--global-text-color);
@@ -393,26 +387,6 @@ blockquote {
   }
 }
 
-<<<<<<< HEAD
-// Social changes
-
-.social {
-  padding-top: 20px;
-  .contact-icons {
-    font-size: 1.5rem;
-    a {
-      //display: flex;
-      //align-items: center;
-      i {
-        padding-right: 10px;
-        vertical-align: middle;
-      }
-      span {
-        font-family: monospace;
-        font-size: 0.9rem;
-      }
-    }
-=======
 .wechat-modal {
   display: none;
   position: fixed;
@@ -440,7 +414,6 @@ blockquote {
 @media only screen and (max-width: 400px) {
   .wechat-modal > img {
     width: 100%;
->>>>>>> upstream/master
   }
 }
 
