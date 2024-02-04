@@ -9,9 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Desk C2083-A</p>
     <p>6666 St-Urbain, #200</p>
-    <p>Montreal, QC, H2S 3H1</p> -->
+    <p>Montreal, QC, H2S 3H1</p>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts
