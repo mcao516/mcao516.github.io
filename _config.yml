@@ -15,7 +15,6 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Based on <a href="https://github.com/alshedivat/al-folio">al-folio</a>'s theme.
 keywords: # add your own keywords or leave empty
-
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🥐 # the emoji used as the favicon
 url: https://mcao516.github.io # the base hostname & protocol for your site
@@ -283,7 +282,6 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-
   last_name: Cao
   first_name: Meng
   style: apa
