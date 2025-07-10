@@ -22,4 +22,4 @@ I am a Ph.D. student in Computer Science at <a href="https://mila.quebec/en/"> Q
 
 My research interests span a wide range of areas within the field of artificial intelligence, with a particular focus on natural language processing (NLP) and reinforcement learning (RL). I am particularly focused on investigating and mitigating the issue of "hallucination" in neural text generation systems, and I am also dedicated to designing more effective RL algorithms for text generation. I interned at Google Research (Mountain View), Microsoft Research (Montréal), Borealis AI (Toronto), and Huawei Noah's Ark Lab (Montréal) during my PhD.
 
-For more information, you can find my CV <a href="assets/pdf/CV.pdf" target="_blank">here</a>.
+For more information, you can find my CV <a href="///home/runner/work/mcao516.github.io/mcao516.github.io/assets/pdf/CV.pdf" target="_blank">here</a>.
