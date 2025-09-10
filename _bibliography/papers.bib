@@ -15,36 +15,92 @@ Computation},
   abbr={ArXiv},
 }
 
-@article{cheng2025stochastic,
-  title={Stochastic Chameleons: Irrelevant Context Hallucinations Reveal Class-Based (Mis)Generalization},
-  author={Cheng, Ziling and Cao, Meng and Rondeau, Marc-Antoine and Cheung, Jackie Chi Kit},
-  journal={arXiv preprint arXiv:2505.22630},
-  year={2025},
-  abbr={ACL},
+@inproceedings{cheng-etal-2025-stochastic,
+    title = "Stochastic Chameleons: Irrelevant Context Hallucinations Reveal Class-Based (Mis)Generalization in {LLM}s",
+    author = "Cheng, Ziling  and
+      Cao, Meng  and
+      Rondeau, Marc-Antoine  and
+      Cheung, Jackie CK",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1458/",
+    doi = "10.18653/v1/2025.acl-long.1458",
+    pages = "30187--30214",
+    ISBN = "979-8-89176-251-0",
+    abstract = "The widespread success of LLMs on NLP benchmarks has been accompanied by concerns that LLMs function primarily as stochastic parrots that reproduce texts similar to what they saw during pre-training, often erroneously. But what is the nature of their errors, and do these errors exhibit any regularities? In this work, we examine irrelevant context hallucinations, in which models integrate misleading contextual cues into their predictions. Through behavioral analysis, we show that these errors result from a structured yet flawed mechanism that we term {\_}class-based (mis)generalization{\_}, in which models combine abstract class cues with features extracted from the query or context to derive answers. Furthermore, mechanistic interpretability experiments on Llama-3, Mistral, and Pythia across 39 factual recall relation types reveal that this behavior is reflected in the model{'}s internal computations: (i) abstract class representations are constructed in lower layers before being refined into specific answers in higher layers, (ii) feature selection is governed by two competing circuits {---} one prioritizing direct query-based reasoning, the other incorporating contextual cues {---} whose relative influences determine the final output. Our findings provide a more nuanced perspective on the stochastic parrot argument: through form-based training, LLMs can exhibit generalization leveraging abstractions, albeit in unreliable ways based on contextual cues {---} what we term {\_}stochastic chameleons{\_}."
 }
 
-@article{hong2025reasoning,
-  title={The reasoning-memorization interplay in language models is mediated by a single direction},
-  author={Hong, Yihuai and Zhou, Dian and Cao, Meng and Yu, Lei and Jin, Zhijing},
-  journal={arXiv preprint arXiv:2503.23084},
-  year={2025},
-  abbr={ACL},
+@inproceedings{hong-etal-2025-reasoning,
+    title = "The Reasoning-Memorization Interplay in Language Models Is Mediated by a Single Direction",
+    author = "Hong, Yihuai  and
+      Cao, Meng  and
+      Zhou, Dian  and
+      Yu, Lei  and
+      Jin, Zhijing",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.1111/",
+    doi = "10.18653/v1/2025.findings-acl.1111",
+    pages = "21565--21585",
+    ISBN = "979-8-89176-256-5",
+    abstract = "Large language models (LLMs) excel on a variety of reasoning benchmarks, but previous studies suggest they sometimes struggle to generalize to unseen questions, potentially due to over-reliance on memorized training examples. However, the precise conditions under which LLMs switch between reasoning and memorization during text generation remain unclear. In this work, we provide a mechanistic understanding of LLMs' reasoning-memorization dynamics by identifying a set of linear features in the model{'}s residual stream that govern the balance between genuine reasoning and memory recall. These features not only distinguish reasoning tasks from memory-intensive ones but can also be manipulated to causally influence model performance on reasoning tasks. Additionally, we show that intervening in these reasoning features helps the model more accurately activate the most relevant problem-solving capabilities during answer generation. Our findings offer new insights into the underlying mechanisms of reasoning and memory in LLMs and pave the way for the development of more robust and interpretable generative AI systems. Our code and data are at https://github.com/yihuaihong/Linear{\_}Reasoning{\_}Memory{\_}Features."
 }
 
-@article{cao2024drlc,
-  title={Enhancing Reinforcement Learning with Dense Rewards from Language Model Critic},
-  author={Cao, Meng and Shu, Lei and Yu, Lei and Zhu, Yun and Wichers, Nevan and Liu, Yinxiao and Meng, Lei},
-  journal={arXiv preprint arXiv:2401.07382},
-  year={2024},
-  abbr={EMNLP},
+@inproceedings{cao-etal-2024-enhancing,
+    title = "Enhancing Reinforcement Learning with Dense Rewards from Language Model Critic",
+    author = "Cao, Meng  and
+      Shu, Lei  and
+      Yu, Lei  and
+      Zhu, Yun  and
+      Wichers, Nevan  and
+      Liu, Yinxiao  and
+      Meng, Lei",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.515/",
+    doi = "10.18653/v1/2024.emnlp-main.515",
+    pages = "9119--9138",
+    abstract = "Reinforcement learning (RL) can align language models with non-differentiable reward signals, such as human preferences. However, a major challenge arises from the sparsity of these reward signals - typically, there is only a single reward for an entire output. This sparsity of rewards can lead to inefficient and unstable learning. To address this challenge, our paper introduces an novel framework that utilizes the critique capability of Large Language Models (LLMs) to produce intermediate-step rewards during RL training. Our method involves coupling a policy model with a critic language model, which is responsible for providing comprehensive feedback of each part of the output. This feedback is then translated into token or span-level rewards that can be used to guide the RL training process. We investigate this approach under two different settings: one where the policy model is smaller and is paired with a more powerful critic model, and another where a single language model fulfills both roles. We assess our approach on three text generation tasks: sentiment control, language model detoxification, and summarization. Experimental results show that incorporating artificial intrinsic rewards significantly improve both sample efficiency and the overall performance of the policy model, supported by both automatic and human evaluation."
 }
 
-@article{yu2024mechanisms,
-  title={Mechanisms of non-factual hallucinations in language models},
-  author={Yu, Lei and Cao, Meng and Cheung, Jackie Chi Kit and Dong, Yue},
-  journal={arXiv preprint arXiv:2403.18167},
-  year={2024},
-  abbr={EMNLP},
+@inproceedings{yu-etal-2024-mechanistic,
+    title = "Mechanistic Understanding and Mitigation of Language Model Non-Factual Hallucinations",
+    author = "Yu, Lei  and
+      Cao, Meng  and
+      Cheung, Jackie CK  and
+      Dong, Yue",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.466/",
+    doi = "10.18653/v1/2024.findings-emnlp.466",
+    pages = "7943--7956",
+    abstract = "State-of-the-art language models (LMs) sometimes generate that misalign with world knowledge. To explore the mechanistic causes of these hallucinations, we create diagnostic datasets with subject-relation queries and adapt interpretability methods to trace hallucinations through internal model representations. We discover two general and distinct mechanistic causes of hallucinations shared across LMs (Llama-2, Pythia, GPT-J): 1) : insufficient subject attribute knowledge in lower layer MLPs, and 2) : failure to select the correct object attribute in upper layer attention heads. We also found these two internal mechanistic causes of hallucinations are reflected in external manifestations. Based on insights from our mechanistic analysis, we propose a novel hallucination mitigation method through targeted restoration of the LM{'}s internal fact recall pipeline, demonstrating superior performance compared to baselines."
 }
 
 @inproceedings{cao2024successor,
