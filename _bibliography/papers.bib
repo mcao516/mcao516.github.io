@@ -1,18 +1,33 @@
-@article{cheng2025can,
-  title={Can LLMs Reason Abstractly Over Math Word Problems Without CoT? Disentangling Abstract Formulation From Arithmetic
-Computation},
-  author={Ziling Cheng, Meng Cao, Leila Pishdad, Yanshuai Cao, Jackie CK Cheung},
-  journal={https://arxiv.org/abs/2505.23701},
-  year={2025},
-  abbr={ArXiv},
-}
-
 @article{cao2025scar,
   title={SCAR: Shapley Credit Assignment for More Efficient RLHF},
   author={Cao, Meng and Zhang, Shuyuan and Chang, Xiao-Wen and Precup, Doina},
   journal={arXiv preprint arXiv:2505.20417},
   year={2025},
   abbr={ArXiv},
+}
+
+@inproceedings{cheng-etal-2025-llms,
+    title = "Can {LLM}s Reason Abstractly Over Math Word Problems Without {C}o{T}? Disentangling Abstract Formulation From Arithmetic Computation",
+    author = "Cheng, Ziling  and
+      Cao, Meng  and
+      Pishdad, Leila  and
+      Cao, Yanshuai  and
+      Cheung, Jackie CK",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.723/",
+    doi = "10.18653/v1/2025.emnlp-main.723",
+    pages = "14306--14333",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Final-answer-based metrics are commonly used for evaluating large language models (LLMs) on math word problems, often taken as proxies for reasoning ability. However, such metrics conflate two distinct sub-skills: abstract formulation (capturing mathematical relationships using expressions) and arithmetic computation (executing the calculations). Through a disentangled evaluation on GSM8K and SVAMP, we find that the final-answer accuracy of Llama-3 and Qwen2.5 (1B-32B) without CoT is overwhelmingly bottlenecked by the arithmetic computation step and not by the abstract formulation step. Contrary to the common belief, we show that CoT primarily aids in computation, with limited impact on abstract formulation. Mechanistically, we show that these two skills are composed conjunctively even in a single forward pass without any reasoning steps via an abstract-then-compute mechanism: models first capture problem abstractions, then handle computation. Causal patching confirms these abstractions are present, transferable, composable, and precede computation. These behavioural and mechanistic findings highlight the need for disentangled evaluation to accurately assess LLM reasoning and to guide future improvements.",
+    abbr={EMNLP},
 }
 
 @inproceedings{cheng-etal-2025-stochastic,
@@ -34,7 +49,8 @@ Computation},
     doi = "10.18653/v1/2025.acl-long.1458",
     pages = "30187--30214",
     ISBN = "979-8-89176-251-0",
-    abstract = "The widespread success of LLMs on NLP benchmarks has been accompanied by concerns that LLMs function primarily as stochastic parrots that reproduce texts similar to what they saw during pre-training, often erroneously. But what is the nature of their errors, and do these errors exhibit any regularities? In this work, we examine irrelevant context hallucinations, in which models integrate misleading contextual cues into their predictions. Through behavioral analysis, we show that these errors result from a structured yet flawed mechanism that we term {\_}class-based (mis)generalization{\_}, in which models combine abstract class cues with features extracted from the query or context to derive answers. Furthermore, mechanistic interpretability experiments on Llama-3, Mistral, and Pythia across 39 factual recall relation types reveal that this behavior is reflected in the model{'}s internal computations: (i) abstract class representations are constructed in lower layers before being refined into specific answers in higher layers, (ii) feature selection is governed by two competing circuits {---} one prioritizing direct query-based reasoning, the other incorporating contextual cues {---} whose relative influences determine the final output. Our findings provide a more nuanced perspective on the stochastic parrot argument: through form-based training, LLMs can exhibit generalization leveraging abstractions, albeit in unreliable ways based on contextual cues {---} what we term {\_}stochastic chameleons{\_}."
+    abstract = "The widespread success of LLMs on NLP benchmarks has been accompanied by concerns that LLMs function primarily as stochastic parrots that reproduce texts similar to what they saw during pre-training, often erroneously. But what is the nature of their errors, and do these errors exhibit any regularities? In this work, we examine irrelevant context hallucinations, in which models integrate misleading contextual cues into their predictions. Through behavioral analysis, we show that these errors result from a structured yet flawed mechanism that we term {\_}class-based (mis)generalization{\_}, in which models combine abstract class cues with features extracted from the query or context to derive answers. Furthermore, mechanistic interpretability experiments on Llama-3, Mistral, and Pythia across 39 factual recall relation types reveal that this behavior is reflected in the model{'}s internal computations: (i) abstract class representations are constructed in lower layers before being refined into specific answers in higher layers, (ii) feature selection is governed by two competing circuits {---} one prioritizing direct query-based reasoning, the other incorporating contextual cues {---} whose relative influences determine the final output. Our findings provide a more nuanced perspective on the stochastic parrot argument: through form-based training, LLMs can exhibit generalization leveraging abstractions, albeit in unreliable ways based on contextual cues {---} what we term {\_}stochastic chameleons{\_}.",
+    abbr={ACL},
 }
 
 @inproceedings{hong-etal-2025-reasoning,
@@ -57,7 +73,8 @@ Computation},
     doi = "10.18653/v1/2025.findings-acl.1111",
     pages = "21565--21585",
     ISBN = "979-8-89176-256-5",
-    abstract = "Large language models (LLMs) excel on a variety of reasoning benchmarks, but previous studies suggest they sometimes struggle to generalize to unseen questions, potentially due to over-reliance on memorized training examples. However, the precise conditions under which LLMs switch between reasoning and memorization during text generation remain unclear. In this work, we provide a mechanistic understanding of LLMs' reasoning-memorization dynamics by identifying a set of linear features in the model{'}s residual stream that govern the balance between genuine reasoning and memory recall. These features not only distinguish reasoning tasks from memory-intensive ones but can also be manipulated to causally influence model performance on reasoning tasks. Additionally, we show that intervening in these reasoning features helps the model more accurately activate the most relevant problem-solving capabilities during answer generation. Our findings offer new insights into the underlying mechanisms of reasoning and memory in LLMs and pave the way for the development of more robust and interpretable generative AI systems. Our code and data are at https://github.com/yihuaihong/Linear{\_}Reasoning{\_}Memory{\_}Features."
+    abstract = "Large language models (LLMs) excel on a variety of reasoning benchmarks, but previous studies suggest they sometimes struggle to generalize to unseen questions, potentially due to over-reliance on memorized training examples. However, the precise conditions under which LLMs switch between reasoning and memorization during text generation remain unclear. In this work, we provide a mechanistic understanding of LLMs' reasoning-memorization dynamics by identifying a set of linear features in the model{'}s residual stream that govern the balance between genuine reasoning and memory recall. These features not only distinguish reasoning tasks from memory-intensive ones but can also be manipulated to causally influence model performance on reasoning tasks. Additionally, we show that intervening in these reasoning features helps the model more accurately activate the most relevant problem-solving capabilities during answer generation. Our findings offer new insights into the underlying mechanisms of reasoning and memory in LLMs and pave the way for the development of more robust and interpretable generative AI systems. Our code and data are at https://github.com/yihuaihong/Linear{\_}Reasoning{\_}Memory{\_}Features.",
+    abbr={ACL},
 }
 
 @inproceedings{cao-etal-2024-enhancing,
@@ -80,7 +97,8 @@ Computation},
     url = "https://aclanthology.org/2024.emnlp-main.515/",
     doi = "10.18653/v1/2024.emnlp-main.515",
     pages = "9119--9138",
-    abstract = "Reinforcement learning (RL) can align language models with non-differentiable reward signals, such as human preferences. However, a major challenge arises from the sparsity of these reward signals - typically, there is only a single reward for an entire output. This sparsity of rewards can lead to inefficient and unstable learning. To address this challenge, our paper introduces an novel framework that utilizes the critique capability of Large Language Models (LLMs) to produce intermediate-step rewards during RL training. Our method involves coupling a policy model with a critic language model, which is responsible for providing comprehensive feedback of each part of the output. This feedback is then translated into token or span-level rewards that can be used to guide the RL training process. We investigate this approach under two different settings: one where the policy model is smaller and is paired with a more powerful critic model, and another where a single language model fulfills both roles. We assess our approach on three text generation tasks: sentiment control, language model detoxification, and summarization. Experimental results show that incorporating artificial intrinsic rewards significantly improve both sample efficiency and the overall performance of the policy model, supported by both automatic and human evaluation."
+    abstract = "Reinforcement learning (RL) can align language models with non-differentiable reward signals, such as human preferences. However, a major challenge arises from the sparsity of these reward signals - typically, there is only a single reward for an entire output. This sparsity of rewards can lead to inefficient and unstable learning. To address this challenge, our paper introduces an novel framework that utilizes the critique capability of Large Language Models (LLMs) to produce intermediate-step rewards during RL training. Our method involves coupling a policy model with a critic language model, which is responsible for providing comprehensive feedback of each part of the output. This feedback is then translated into token or span-level rewards that can be used to guide the RL training process. We investigate this approach under two different settings: one where the policy model is smaller and is paired with a more powerful critic model, and another where a single language model fulfills both roles. We assess our approach on three text generation tasks: sentiment control, language model detoxification, and summarization. Experimental results show that incorporating artificial intrinsic rewards significantly improve both sample efficiency and the overall performance of the policy model, supported by both automatic and human evaluation.",
+    abbr={EMNLP},
 }
 
 @inproceedings{yu-etal-2024-mechanistic,
@@ -100,7 +118,8 @@ Computation},
     url = "https://aclanthology.org/2024.findings-emnlp.466/",
     doi = "10.18653/v1/2024.findings-emnlp.466",
     pages = "7943--7956",
-    abstract = "State-of-the-art language models (LMs) sometimes generate that misalign with world knowledge. To explore the mechanistic causes of these hallucinations, we create diagnostic datasets with subject-relation queries and adapt interpretability methods to trace hallucinations through internal model representations. We discover two general and distinct mechanistic causes of hallucinations shared across LMs (Llama-2, Pythia, GPT-J): 1) : insufficient subject attribute knowledge in lower layer MLPs, and 2) : failure to select the correct object attribute in upper layer attention heads. We also found these two internal mechanistic causes of hallucinations are reflected in external manifestations. Based on insights from our mechanistic analysis, we propose a novel hallucination mitigation method through targeted restoration of the LM{'}s internal fact recall pipeline, demonstrating superior performance compared to baselines."
+    abstract = "State-of-the-art language models (LMs) sometimes generate that misalign with world knowledge. To explore the mechanistic causes of these hallucinations, we create diagnostic datasets with subject-relation queries and adapt interpretability methods to trace hallucinations through internal model representations. We discover two general and distinct mechanistic causes of hallucinations shared across LMs (Llama-2, Pythia, GPT-J): 1) : insufficient subject attribute knowledge in lower layer MLPs, and 2) : failure to select the correct object attribute in upper layer attention heads. We also found these two internal mechanistic causes of hallucinations are reflected in external manifestations. Based on insights from our mechanistic analysis, we propose a novel hallucination mitigation method through targeted restoration of the LM{'}s internal fact recall pipeline, demonstrating superior performance compared to baselines.",
+    abbr={EMNLP},
 }
 
 @inproceedings{cao2024successor,
